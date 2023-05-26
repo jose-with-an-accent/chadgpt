@@ -1,0 +1,12 @@
+[package]
+name = "llm-discovery"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = "0.9.0"
+llm = { git = "https://github.com/rustformers/llm" , branch = "main" }
+rand = "0.8.5"
+tray-icon = "0.5.1"
